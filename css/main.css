@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  background-color: #eee9de;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.topaz {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

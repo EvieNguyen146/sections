@@ -38,7 +38,7 @@ p {
   padding: .4em .75em .5em;
   border: 3px solid #333;
   text-decoration: none;
-  color: #333
+  color: #333;
 }
 
 .btn a:hover {
@@ -57,8 +57,4 @@ img {
   width: 100%;
   max-width: 25em;
   vertical-align: middle;
-}
-
-.content-main {
-  padding-top: .009em;
 }

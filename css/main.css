@@ -1,46 +1,57 @@
 html {
   box-sizing: border-box;
-  background-color: #eee9de;
-  font-family: Lato, sans-serif;
-  line-height: 1.5;
+  font: 100%/1.5 Lato, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.topaz {
+body {
   margin: 0;
-  padding: 0;
-  list-style-type: none;
+}
+
+.ruby {
+padding: 2em 0;
+text-align: center;
+background-color: #eee9de;
+vertical-align: middle;
+}
+
+.content-pyramid {
+  padding: 1em;
+  display: inline-block;
+  max-width: 25em;
+  width: 100%;
+  vertical-align: middle;
+  text-align: left;
+}
+
+h2 p {
+  margin: 0 0 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  padding: .4em .75em .5em;
+  border: 3px solid #333;
+}
+
+.btn a:hover {
+  background-color: #666;
+  color: #fff;
 }
 
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 0;
+  width: 100%;
 }
 
-.ruby a {
+.topaz {
   display: inline-block;
   padding: 1em;
-  border-radius: 4px;
-  text-decoration: none;
+  width: 100%;
   max-width: 25em;
-}
-
-.ruby a:hover {
-  background-color: #666;
-  color: #333;
-}
-
-body {
   vertical-align: middle;
-  text-align: center;
-  margin: 0;
-}
-
-h1 {
-  text-align: left;
 }

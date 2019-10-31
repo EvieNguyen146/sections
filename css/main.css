@@ -12,10 +12,10 @@ body {
 }
 
 .ruby {
-padding: 2em 0;
-text-align: center;
-background-color: #eee9de;
-vertical-align: middle;
+  padding: 2em 0;
+  text-align: center;
+  background-color: #eee9de;
+  vertical-align: middle;
 }
 
 .content-pyramid {
@@ -27,7 +27,8 @@ vertical-align: middle;
   text-align: left;
 }
 
-h2 p {
+h2,
+p {
   margin: 0 0 1.5rem;
 }
 
@@ -36,6 +37,8 @@ h2 p {
   font-size: 1.125rem;
   padding: .4em .75em .5em;
   border: 3px solid #333;
+  text-decoration: none;
+  color: #333
 }
 
 .btn a:hover {
@@ -54,4 +57,8 @@ img {
   width: 100%;
   max-width: 25em;
   vertical-align: middle;
+}
+
+.content-main {
+  padding-top: .009em;
 }
